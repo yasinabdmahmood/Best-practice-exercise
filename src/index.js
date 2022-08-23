@@ -159,7 +159,7 @@ window.onload = () => {
   } else {
     const tasks = getTasks();
 
-    // tasks.sort((b, a) => b.index - a.index);
+   
     tasks.forEach((el) => {
       const div = generateTask(el.discription);
       removeFuncionality(div);
