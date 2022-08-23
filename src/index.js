@@ -159,7 +159,6 @@ window.onload = () => {
   } else {
     const tasks = getTasks();
 
-   
     tasks.forEach((el) => {
       const div = generateTask(el.discription);
       removeFuncionality(div);
