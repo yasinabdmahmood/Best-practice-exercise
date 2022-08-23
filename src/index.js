@@ -151,7 +151,7 @@ const checkInteraction = () => {
   });
 };
 
-const isLocalStorageEmpty = () => localStorage.getItem('data') == null;
+const isLocalStorageEmpty = () => localStorage.getItem('data') === null;
 
 window.onload = () => {
   if (isLocalStorageEmpty()) {
